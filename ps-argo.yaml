@@ -1,0 +1,16 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: vmworld-demo
+  namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
+spec:
+  destination:
+    namespace: planespotter
+    server: 'https://kubernetes.default.svc'
+  source:
+    path: planespotter
+    repoURL: 'https://github.com/apnex/demo.git'
+    targetRevision: HEAD
+  project: default
