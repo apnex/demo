@@ -16,7 +16,7 @@ spec:
           cidr: 172.20.21.10/32
       ports:
       - protocol: TCP
-        port: 3308
+        port: 3306
 ---
 apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
