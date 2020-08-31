@@ -11,6 +11,6 @@ spec:
     server: 'https://kubernetes.default.svc'
   source:
     path: planespotter
-    repoURL: 'https://github.com/apnex/demo.git'
+    repoURL: 'https://github.com/apnex/vmworld-demo.git'
     targetRevision: HEAD
   project: default
