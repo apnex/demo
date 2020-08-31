@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "vmworld-demo",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"workbench.colorCustomizations": {
+			"terminal.foreground": "#00FD61"
+		}
+	}
+}
